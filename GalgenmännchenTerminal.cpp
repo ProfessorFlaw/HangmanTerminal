@@ -56,6 +56,7 @@ int main() {
 
         // Prüfe, ob der Buchstabe bereits ausprobiert wurde
         if (versuchteBuchstaben.find(Buchstabe) != string::npos) {
+            system("clear");
             cout << "Du hast diesen Buchstaben bereits ausprobiert. Bitte wähle einen anderen." << endl;
             continue;
         }
